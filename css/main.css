@@ -1,0 +1,100 @@
+.spinner-border-default {
+  display: none;
+}
+.spinner-border-active {
+  display: block;
+}
+.spinner-border {
+  display: none !important;
+}
+.sorted-container {
+  display: flex;
+  margin-bottom: 15px;
+}
+.select-active {
+  max-width: 220px;
+}
+.btn {
+  background: none;
+}
+.btn img {
+  width: 20px;
+  height: 20px;
+}
+.input {
+  border-radius: 5px;
+  padding: 0.35rem;
+  display: none;
+  font-family: sans-serif;
+  border: 1px solid blue;
+}
+.input:focus {
+  outline: none;
+}
+.modal {
+  display: none;
+  transform: translateY(-200px);
+}
+.modal-active {
+  display: block;
+  transition: all 0.5s ease;
+  transform: translateY(0px);
+}
+.spinner-border {
+  margin: 0 auto;
+}
+.spinner-border-active {
+  display: block !important;
+}
+.spinner-grow {
+  position: absolute;
+  top: 50%;
+  display: none;
+  right: 50%;
+  transform: translate(-50% -50%);
+}
+.wrapper-active {
+  display: block;
+}
+.btn-active {
+  background-color: green;
+}
+.btn-count {
+  background-color: rgb(93, 230, 134);
+}
+.btn-count:hover{
+  background-color: blue !important;
+}
+.count-text{
+  color: #fff;
+}
+.btn-count-table{
+  width: 35px;
+  height: 35px;
+  background-image: url(../images/bookmarks.svg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+}
+.count-btn-red{
+  width: 35px;
+  height: 35px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  background-image: url(../images/bookmarks.svg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+}
+.count-btn-green{
+  width: 35px;
+  height: 35px;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  background-image: url(../images/bookmarks.svg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+}
